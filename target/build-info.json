@@ -1,0 +1,60 @@
+{
+  "version" : "1.0.1",
+  "name" : "hw",
+  "number" : "1494081526394",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.5.0"
+  },
+  "agent" : {
+    "name" : "Maven",
+    "version" : "3.5.0"
+  },
+  "started" : "2017-05-06T07:38:48.489-0700",
+  "durationMillis" : 3815,
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "modules" : [ {
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    },
+    "id" : "com.mariyamaguchi:hw:1.1-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "a96cbb113c98d2567eb9da6ca96627a838ffc965",
+      "md5" : "5ca3ceade31a0faae02e415e3c88a2fa",
+      "name" : "hw-1.1-SNAPSHOT.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "37f328b913e19b6aa8d4f4764ddce3d25ff1f1ca",
+      "md5" : "2f99002f7230a3411080c7d5e06d234e",
+      "name" : "hw-1.1-SNAPSHOT.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "id" : "junit:junit:3.8.1",
+      "scopes" : [ "test" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
