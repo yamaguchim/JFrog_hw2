@@ -41,14 +41,13 @@
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="buildInfoConfig.propertiesFile" value="/private/var/folders/n5/qrnm2sg503qgz2n2rgcnf4_h0000gn/T/buildInfo8200733874416692281.properties"/>
+    <property name="buildInfoConfig.propertiesFile" value="/private/var/folders/n5/qrnm2sg503qgz2n2rgcnf4_h0000gn/T/buildInfo7130577702093135460.properties"/>
     <property name="user.name" value="mariyamaguchi"/>
     <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy -X"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>

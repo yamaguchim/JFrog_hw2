@@ -1,6 +1,0 @@
-#surefire_0
-#Sat May 06 07:38:49 PDT 2017
-maven.deploy.skip=true
-basedir=/Users/mariyamaguchi/Desktop/jfrog_hw2
-user.dir=/Users/mariyamaguchi/Desktop/jfrog_hw2
-localRepository=/Users/mariyamaguchi/.m2/repository
