@@ -12,11 +12,11 @@
 
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <buildinfo.version>2.7.7</buildinfo.version>
+     <!--    <buildinfo.version>2.7.7</buildinfo.version> -->
         <!-- <buildinfo.maven3.version>2.6.8</buildinfo.maven3.version> -->
-        <buildinfo.maven3.version>3.3.9</buildinfo.maven3.version>
+      <!--   <buildinfo.maven3.version>3.3.9</buildinfo.maven3.version>
         <buildinfo.gradle.version>4.4.17</buildinfo.gradle.version>
-        <buildinfo.ivy.version>2.6.5</buildinfo.ivy.version>
+        <buildinfo.ivy.version>2.6.5</buildinfo.ivy.version> -->
         <!-- <maven-release-plugin.version>2.2</maven-release-plugin.version> -->
       <!--   <maven-release-plugin.version>2.9.0</maven-release-plugin.version> -->
   </properties>
