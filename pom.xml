@@ -23,7 +23,7 @@
 
 
         <buildinfo.version>2.7.6</buildinfo.version>
- +      <buildinfo.maven3.version>3.3.9/buildinfo.maven3.version>
+ +      <buildinfo.maven3.version>3.3.9</buildinfo.maven3.version>
  +      <buildinfo.gradle.version>4.4.16</buildinfo.gradle.version>
  +      <buildinfo.ivy.version>2.6.5</buildinfo.ivy.version>
         <!-- <maven-release-plugin.version>2.2</maven-release-plugin.version> -->
@@ -49,7 +49,7 @@
             <version>3.3.9</version>
             <inherited>false</inherited>
             <executions>
-                <execution>
+                x<execution>
                     <id>build-info</id>
                     <goals>
                         <goal>publish</goal>
