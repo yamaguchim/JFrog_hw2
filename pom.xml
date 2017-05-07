@@ -7,8 +7,8 @@
   <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>hw</name>
-  <url>http://maven.apache.org</url>
+  <!-- <name>hw</name>
+  <url>http://maven.apache.org</url> -->
 
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,15 +45,40 @@
                     <configuration>
                         <deployProperties>
                             <gradle>awesome</gradle>
-                            <review.team>qa</review.team>
+                           <!--  <review.team>qa</review.team> -->
                         </deployProperties>
-                        <publisher>
+                            <artifactory>
+                                <includeEnvVars>true</includeEnvVars>
+                                <timeoutSec>60</timeoutSec>
+                                <propertiesFile>publish.properties</propertiesFile>
+                            </artifactory>
+
+
+                      <!--   <publisher>
                             <contextUrl>https://oss.jfrog.org</contextUrl>
                             <username>deployer</username>
                             <password>{DESede}...</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                        </publisher> -->
+
+                           <!-- <publisher> -->
+                           <!--  <contextUrl>https://oss.jfrog.org</contextUrl> -->
+                 <!--            <username>deployer</username>
+                            <password>{DESede}...</password> -->
+                           <!--  <repoKey>libs-release-local</repoKey>
+                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                        </publisher> --> 
+                         <publisher>
+                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
+                                <username>admin</username>
+                                <password>password</password>
+                                <excludePatterns>*-tests.jar</excludePatterns>
+                                <repoKey>maven-release-local</repoKey>
+                                <snapshotRepoKey>maven-snapshot-local</snapshotRepoKey>
                         </publisher>
+
+
                     </configuration>
                 </execution>
             </executions>
